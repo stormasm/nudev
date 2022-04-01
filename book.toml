@@ -1,0 +1,6 @@
+[book]
+authors = ["Michael Angerman"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Nushell Developers Guide"
