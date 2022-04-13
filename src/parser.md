@@ -1,11 +1,16 @@
 # Parser
 
-The parser creates Expressions...   
+The parser creates Pipelines and Expressions and stores them in a Block.
+
 There are no Values in the parser.
+
+Once the parser creates the block it is passed along to the evaluation
+step whose job it is to evaluate these blocks and create Values which
+can be displayed to the user in different ways.
 
 The file parse_keywords.rs simply are helper functions for the parser...
 
-There are different ways to understand how the parser works in the outside world meaning other how other crates inside nushell uses the parser.
+There are different ways to understand how the parser works in the outside world meaning how other how other crates inside Nushell uses the parser.
 
 The simplest way to see where the parser is referenced is to:
 

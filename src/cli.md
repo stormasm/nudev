@@ -19,4 +19,4 @@ Eval_source is the most critical piece of code in Nushell.
 Its main job is to do two things:
 
 * *parsing* which takes in the user input string and creates a block
-* *evaluation* which creates values from expressions by calling eval_block
+* *evaluation* which creates values from pipelines and expressions by calling eval_block
