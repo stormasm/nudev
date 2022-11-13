@@ -9,3 +9,5 @@ To see the doc simply
 ```rust
 alias mds='mdbook serve'
 ```
+
+last updated 11/13/2022
